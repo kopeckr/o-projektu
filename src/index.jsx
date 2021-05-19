@@ -2,16 +2,12 @@ import React from 'react';
 import { render } from 'react-dom';
 import './style.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Header from './Header';
 
 import Home from './Home/home';
 import AboutUs from './AboutUs/aboutus';
 import AboutProject from './AboutProject/aboutproject';
 
 const App = () => (
-  // <>
-  //   <Header />
-  // </>
 
   <Router>
     <div>
