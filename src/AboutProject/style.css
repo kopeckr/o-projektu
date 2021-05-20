@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.project {
+  color: white;
+  margin: 20px;
+}
+
+h1,
+h3 {
+  margin: 20px;
+}
+
+.photo {
+  margin: 20px;
+}
