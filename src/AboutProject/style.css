@@ -6,14 +6,37 @@
 
 .project {
   color: white;
-  margin: 20px;
+  margin: 1.25rem;
 }
 
-h1,
-h3 {
-  margin: 20px;
+.project__title {
+  margin: 1.25rem 0;
 }
 
-.photo {
-  margin: 20px;
+.project__box--photo {
+  overflow: hidden;
+  border-radius: 1.25rem;
+}
+
+.project__photo {
+  border-radius: 1.25rem;
+  transition: transform ease-in-out 500ms;
+  transform: scale(1);
+}
+
+.project__photo:hover {
+  transform: scale(1.2);
+  transition: transform ease-in-out 500ms;
+}
+
+.project__info {
+  margin-top: 1.25rem;
+}
+
+.project__description {
+  line-height: 2;
+}
+
+.project__description::first-letter {
+  font-size: 200%;
 }
