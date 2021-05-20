@@ -8,7 +8,6 @@ import AboutUs from './AboutUs/aboutus';
 import AboutProject from './AboutProject/aboutproject';
 
 const App = () => (
-
   <Router>
     <div>
       <nav className="nav">
