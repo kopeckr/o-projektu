@@ -41,4 +41,5 @@
 
 .project__description::first-letter {
   font-size: 200%;
+  line-height: 1;
 }

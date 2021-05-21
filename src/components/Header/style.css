@@ -14,7 +14,7 @@
 }
 
 .nav__link::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 30px;
   left: 30%;
@@ -27,4 +27,8 @@
 
 .nav__link:hover::after {
   transform: scaleX(1);
+}
+
+.nav {
+  border-bottom: white solid 1px;
 }
