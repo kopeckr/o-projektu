@@ -6,7 +6,8 @@
 
 .project {
   color: white;
-  margin: 1.25rem;
+  margin: 1.25rem auto;
+  max-width: 120vmin;
 }
 
 .project__title {

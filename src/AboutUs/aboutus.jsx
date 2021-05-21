@@ -7,15 +7,22 @@ const AboutUs = () => {
       <div className="about">
         <section className="about__us">
           <h1 className="about__us--title">Kristýna</h1>
+
+          <img
+            className="about__us--photo"
+            src="./img/hp.jpg"
+            alt="Kristyna"
+            loading="lazy"
+          />
+
           <p>
             <strong>Něco o mě:</strong> V Hradci Králové jsem vystudovala
-            angličtinu a francouzštinu a na Masarykově univerzitě jsem studovala
-            obor muzeologie. Jsem ale z Příbrami a nyní bydlím v Praze.
+            angličtinu a francouzštinu.
           </p>
 
           <p>
-            <strong>Pracuju/pracovala jsem:</strong> Od dokončení školy pracuji
-            v cestovním ruchu.
+            <strong>Pracuju:</strong> Od dokončení školy pracuji v cestovním
+            ruchu.
           </p>
 
           <p>
