@@ -1,0 +1,51 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.about__us--title {
+  text-align: center;
+  margin: 10px;
+}
+
+.about__us--text {
+  line-height: 2;
+}
+
+.about__us {
+  margin: 20px 30px;
+  flex: 1;
+}
+
+p {
+  margin-top: 15px;
+}
+
+.about__us--photo {
+  border-radius: 8px;
+}
+
+@media (min-width: 43.75rem) {
+  .about {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about__us--photo {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .about__us--box {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

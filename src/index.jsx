@@ -1,34 +1,18 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './style.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-import Home from './Home/home';
-import AboutUs from './AboutUs/aboutus';
-import AboutProject from './AboutProject/aboutproject';
+import Home from './pages/Home/home';
+import AboutUs from './pages/AboutUs/aboutus';
+import AboutProject from './pages/AboutProject/aboutproject';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 const App = () => (
   <Router>
     <div>
-      <nav className="nav">
-        <ul className="nav__list">
-          <li className="nav__item">
-            <Link className="nav__link" to="/">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link className="nav__link" to="/aboutus">
-              O nás
-            </Link>
-          </li>
-          <li>
-            <Link className="nav__link" to="/aboutproject">
-              O projektu
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <Header />
       <main>
         <Switch>
           <Route exact path="/">
@@ -42,6 +26,7 @@ const App = () => (
           </Route>
         </Switch>
       </main>
+      <Footer />
     </div>
   </Router>
 );

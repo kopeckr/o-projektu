@@ -1,0 +1,18 @@
+
+footer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4rem 0 1rem 0;
+  font-size: 0.7rem;
+}
+
+.github__icon {
+  width: 2rem;
+  margin: 0 auto;
+}
+
+.github__user {
+  color: #ffffff;
+}

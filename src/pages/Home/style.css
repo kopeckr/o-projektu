@@ -1,0 +1,25 @@
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.home__title {
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.25rem;
+  max-width: 50ch;
+  line-height: 2;
+}
+
+.home__title::first-letter {
+  font-size: 200%;
+}
+
+.home__logo {
+  width: 31.25rem;
+}

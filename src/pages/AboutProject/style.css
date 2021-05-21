@@ -8,6 +8,7 @@
   color: white;
   margin: 1.25rem auto;
   max-width: 120vmin;
+  padding: 0 1.25rem;
 }
 
 .project__title {
